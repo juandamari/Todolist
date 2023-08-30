@@ -1,16 +1,25 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import CreateButton from './CreateButton'
+import TodoCounter from './TodoCounter'
+import TodoList from './TodoList'
+import TodoSearch from './TodoSearch'
+import TodoItem from './TodoItem'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <p className="">
-        Click on the Vite and React logos to learn more
-      </p>
+      <div className="flex items-center justify-center h-screen">
+        <div className='text-center'>
+          <TodoCounter/>
+          <TodoSearch/>
+
+          <TodoList>
+            <TodoItem/>
+          </TodoList>
+          <CreateButton/>
+        </div>
+
+      </div>
     </>
   )
 }
