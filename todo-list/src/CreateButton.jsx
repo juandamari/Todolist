@@ -5,8 +5,7 @@ function CreateButton() {
     return (
     <>
         <div className="flex items-center justify-center m-4">
-            <button className="mr-4">j</button>
-            <button className="ml-4">x</button>
+            <button className="mr-4 border-2">+</button>
         </div>
     </>
     )
