@@ -3,7 +3,11 @@ import React from "react"
 
 function TodoSearch() {
     return (
-      <input className="border-2 m-4" placeholder="Tareas pendientes"/>
+      <>
+      <div className="flex flex-col justify-center">
+      <input className="mt-12 text-center mx-12 font-normal leading-normal" placeholder="Tareas pendientes"/>
+      </div>
+      </>
     )
   }
   export default TodoSearch;
