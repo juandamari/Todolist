@@ -4,9 +4,11 @@ import React from "react"
 
 function TodoList(props) {
     return (
-      <ul>
-        {props.children}
-      </ul>
+      <div className="mt-16">
+        <ul>
+          {props.children}
+        </ul>
+      </div>
     )
   }
   export default TodoList;

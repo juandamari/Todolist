@@ -8,20 +8,19 @@ function App() {
 
   return (
     <>
-      <div className="flex items-center justify-center h-screen">
-        <div className='text-center'>
-          <TodoCounter/>
-          <TodoSearch/>
+      <div className="flex items-center justify-center h-screen text-cen">
+        <div className="text-center">
+          <TodoCounter />
+          <TodoSearch />
 
           <TodoList>
-            <TodoItem/>
+            <TodoItem />
           </TodoList>
-          <CreateButton/>
+          <CreateButton />
         </div>
-
       </div>
     </>
-  )
+  );
 }
 
 export default App
