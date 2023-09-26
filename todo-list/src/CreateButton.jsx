@@ -4,8 +4,11 @@ import React from "react"
 function CreateButton() {
     return (
     <>
-        <div className="flex items-center justify-center m-4">
-            <button className="mr-4 border-2">+</button>
+        <h2>Create new task</h2>
+        <p>Task name:</p>
+        <input type="text" placeholder="Escribe lo que necesitas" className="border-4 rounded-lg"></input>
+        <div className="">
+            <button className="">Create task</button>
         </div>
     </>
     )
